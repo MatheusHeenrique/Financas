@@ -15,3 +15,6 @@ C:\Users\mathe\source\repos\Finanças\Finanças\obj\Debug\net6.0\Finanças.genru
 C:\Users\mathe\source\repos\Finanças\Finanças\obj\Debug\net6.0\ref\Finanças.dll
 C:\Users\mathe\source\repos\Finanças\Finanças\bin\Debug\net6.0\CsvHelper.dll
 C:\Users\mathe\source\repos\Finanças\Finanças\obj\Debug\net6.0\Finanças.csproj.CopyComplete
+C:\Users\mathe\Source\Repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.dll
+C:\Users\mathe\Source\Repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\refint\Finanças.dll
+C:\Users\mathe\Source\Repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.pdb

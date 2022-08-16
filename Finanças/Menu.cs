@@ -68,29 +68,115 @@
         public List<string> AdicionarGasto()
         {
             var listaDeRespota = new List<string>();
+            string? resposta;
 
-            Console.Clear();
-            Console.Write("Qual o valor que desse adicionar: ");
-            string? resposta = Console.ReadLine();
+            // Pegando Valor a ser adicionado
+            while (true)
+            {
+                // Pegando o valor
+                Console.Clear();
+                Console.Write("Qual o valor que desse adicionar: ");
+                resposta = Console.ReadLine();
+                
+                 // Convertendo respota casso o usuario digite errado
+                if (resposta.Contains('.'))
+                { 
+                    resposta = resposta.Replace('.', ',');
+                }
 
+                // Mostrando para o usuario que ele digitou
+                Console.Clear();
+                Console.Write($"Você digitou R${resposta}, Deseja continua?[S/n]: ");
+                char continua = Console.ReadLine();
+                if (continua == 's') break;
+            }
+
+            // Adicionando resposta
             listaDeRespota.Add(resposta);
 
-            Console.Clear();
-            Console.Write("É credito, debito ou um gasto fixo: ");
-            resposta = Console.ReadLine();
+            // Credito, Debito ou Gasto Fixo
+            while (true)
+            {
+                Console.Clear();
+                Console.Write("É credito, debito ou um gasto fixo: ");
+                resposta = Console.ReadLine();
 
+                // Mostrando para o usuario que ele digitou
+                char continua;
+                Console.Clear();
+                if (resposta == 'g')
+                {
+                    Console.Write("Você escolheu a opção Gasto fixo");
+                }
+                else if (resposta == 'c')
+                {
+                    Console.Write("Você escolheu a opção Credito");
+                }
+                else if (resposta == 'd')
+                {
+                    Console.Write("Você escolheu a opção Debito");
+                }
+                else
+                {
+                    Console.WriteLine("resposta invalida!");
+                    Console.WriteLine("\n\n\nPrecione ENTER para continuar");
+                    continua = Console.ReadLine();
+                    continue
+                }
+
+                Console.Write("\n\n\nDeseja continua?[S/n]: ");
+                continua = Console.ReadLine();
+                if (continua == 's') break;
+
+            }
+
+            // Adicionando resposta
             listaDeRespota.Add(resposta);
 
-            Console.Clear();
-            Console.Write("Quantidade de parcelas: ");
-            resposta = Console.ReadLine();
+            // Parcelas
+            while (true)
+            {
+                if (resposta == 'g' || resposta == 'd') break;
 
-            listaDeRespota.Add(resposta);
+                Console.Clear();
+                Console.Write("Quantidade de parcelas: ");
+                resposta = Console.ReadLine();
 
-            Console.Clear();
-            Console.Write("Adicione um descrição para essse gasto:");
-            resposta = Console.ReadLine();
+                Console.Clear();
+                Console.Write($"Você digitou {resposta} parcerlas, Deseja continua?[S/n]: ");
+                char continua = Console.ReadLine();
+                if (continua == 's') break;
 
+                if (resposta == 'g') resposta = "0";
+                
+            }
+
+            // Adicionando resposta
+            if (resposta == 'g' || resposta == 'd')
+            {
+                listaDeRespota.Add("0");
+            }
+            else
+            {
+                listaDeRespota.Add(resposta);
+            }
+
+            // Descrição
+            while (true)
+            {
+                Console.Clear();
+                Console.Write("Adicione um descrição para essse gasto:");
+                resposta = Console.ReadLine();
+
+                Console.Clear();
+                Console.WriteLine($"Você digitou a seguinte descrição [{resposta}]");
+                Console.Write("\n\n\nDeseja continua?[S/n]: ");
+                char continua = Console.ReadLine();
+
+                if (continua == 's') break;
+            }
+
+            // Adicionando resposta
             listaDeRespota.Add(resposta);
 
 
