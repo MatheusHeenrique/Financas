@@ -18,3 +18,17 @@ C:\Users\mathe\source\repos\Finanças\Finanças\obj\Debug\net6.0\Finanças.cspro
 C:\Users\mathe\Source\Repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.dll
 C:\Users\mathe\Source\Repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\refint\Finanças.dll
 C:\Users\mathe\Source\Repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.pdb
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.AssemblyInfo.cs
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\bin\Debug\net6.0\Finanças.exe
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\bin\Debug\net6.0\Finanças.deps.json
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\bin\Debug\net6.0\Finanças.runtimeconfig.json
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\bin\Debug\net6.0\Finanças.dll
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\bin\Debug\net6.0\Finanças.pdb
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.csproj.CopyComplete
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\Finanças.genruntimeconfig.cache
+C:\Users\mathe\source\repos\MatheusHeenrique\Financas\Finanças\obj\Debug\net6.0\ref\Finanças.dll

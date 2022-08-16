@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\Finanças.csproj": {}
+    "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\Finanças.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\Finanças.csproj": {
+    "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\Finanças.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\Finanças.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\Finanças.csproj",
         "projectName": "Finanças",
-        "projectPath": "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\Finanças.csproj",
+        "projectPath": "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\Finanças.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +47,7 @@
           "dependencies": {
             "CsvHelper": {
               "target": "Package",
-              "version": "[27.2.1, )"
+              "version": "[28.0.1, )"
             }
           },
           "imports": [
@@ -55,7 +56,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

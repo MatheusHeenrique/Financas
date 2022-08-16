@@ -2,27 +2,31 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "CsvHelper/27.2.1": {
+      "CsvHelper/28.0.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/CsvHelper.dll": {}
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/CsvHelper.dll": {}
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
   },
   "libraries": {
-    "CsvHelper/27.2.1": {
-      "sha512": "uS5ix5hL9gL5taiAG//CScyJa8Fn1ZOh3FDhDvf4laboESFs84mCNropfp7PIt8xCkyQofljFpqu1B5UnSXjyA==",
+    "CsvHelper/28.0.1": {
+      "sha512": "T/Eid0mP/GeWV1RcxmUPSsBCtOm6wHbFII6iFydPfpIa6cd+siec0KGrLq5uabI8sH6crFi84OA1vNLkp8Lzlw==",
       "type": "package",
-      "path": "csvhelper/27.2.1",
+      "path": "csvhelper/28.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "csvhelper.27.2.1.nupkg.sha512",
+        "csvhelper.28.0.1.nupkg.sha512",
         "csvhelper.nuspec",
         "lib/net45/CsvHelper.dll",
         "lib/net45/CsvHelper.xml",
@@ -41,7 +45,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CsvHelper >= 27.2.1"
+      "CsvHelper >= 28.0.1"
     ]
   },
   "packageFolders": {
@@ -51,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\Finanças.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\Finanças.csproj",
       "projectName": "Finanças",
-      "projectPath": "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\Finanças.csproj",
+      "projectPath": "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\Finanças.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\obj\\",
+      "outputPath": "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,6 +74,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -90,7 +95,7 @@
         "dependencies": {
           "CsvHelper": {
             "target": "Package",
-            "version": "[27.2.1, )"
+            "version": "[28.0.1, )"
           }
         },
         "imports": [
@@ -99,7 +104,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -108,7 +114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -87,8 +87,8 @@
                 // Mostrando para o usuario que ele digitou
                 Console.Clear();
                 Console.Write($"Você digitou R${resposta}, Deseja continua?[S/n]: ");
-                char continua = Console.ReadLine();
-                if (continua == 's') break;
+                string continua = Console.ReadLine();
+                if (continua == "s") break;
             }
 
             // Adicionando resposta
@@ -102,17 +102,17 @@
                 resposta = Console.ReadLine();
 
                 // Mostrando para o usuario que ele digitou
-                char continua;
+                string continua;
                 Console.Clear();
-                if (resposta == 'g')
+                if (resposta == "g")
                 {
                     Console.Write("Você escolheu a opção Gasto fixo");
                 }
-                else if (resposta == 'c')
+                else if (resposta == "c")
                 {
                     Console.Write("Você escolheu a opção Credito");
                 }
-                else if (resposta == 'd')
+                else if (resposta == "d")
                 {
                     Console.Write("Você escolheu a opção Debito");
                 }
@@ -121,12 +121,12 @@
                     Console.WriteLine("resposta invalida!");
                     Console.WriteLine("\n\n\nPrecione ENTER para continuar");
                     continua = Console.ReadLine();
-                    continue
+                    continue;
                 }
 
                 Console.Write("\n\n\nDeseja continua?[S/n]: ");
                 continua = Console.ReadLine();
-                if (continua == 's') break;
+                if (continua == "s") break;
 
             }
 
@@ -136,7 +136,7 @@
             // Parcelas
             while (true)
             {
-                if (resposta == 'g' || resposta == 'd') break;
+                if (resposta == "g" || resposta == "d") break;
 
                 Console.Clear();
                 Console.Write("Quantidade de parcelas: ");
@@ -144,15 +144,15 @@
 
                 Console.Clear();
                 Console.Write($"Você digitou {resposta} parcerlas, Deseja continua?[S/n]: ");
-                char continua = Console.ReadLine();
-                if (continua == 's') break;
+                string continua = Console.ReadLine();
+                if (continua == "s") break;
 
-                if (resposta == 'g') resposta = "0";
+                if (resposta == "g") resposta = "0";
                 
             }
 
             // Adicionando resposta
-            if (resposta == 'g' || resposta == 'd')
+            if (resposta == "g" || resposta == "d")
             {
                 listaDeRespota.Add("0");
             }
@@ -171,9 +171,9 @@
                 Console.Clear();
                 Console.WriteLine($"Você digitou a seguinte descrição [{resposta}]");
                 Console.Write("\n\n\nDeseja continua?[S/n]: ");
-                char continua = Console.ReadLine();
+                string continua = Console.ReadLine();
 
-                if (continua == 's') break;
+                if (continua == "s") break;
             }
 
             // Adicionando resposta

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DMBP7kJtMmpQ6lOaz3SxCLJtl0SHKHsKCMJ4IDYdI9rfPNPmq6+eVX1Fryak+iQxgCt6lQlttHPjVveNJRlotg==",
+  "dgSpecHash": "G26M0uSMqzneeUAsToSFkn7BCQAQZP0qJVPlCNIxJeFK+37imGLBIGzHR2AK895hLrGzpNFbiY6gF1TCDYBARQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\source\\repos\\Finanças\\Finanças\\Finanças.csproj",
+  "projectFilePath": "C:\\Users\\mathe\\source\\repos\\MatheusHeenrique\\Financas\\Finanças\\Finanças.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mathe\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512"
+    "C:\\Users\\mathe\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
   ],
   "logs": []
 }
